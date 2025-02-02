@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bot Detection System</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bot Profile Detection</h1>
+        <form action="/predict" method="post">
+            <label for="tweet">Enter Tweet Text:</label>
+            <input type="text" name="tweet" id="tweet" required placeholder="Type a tweet...">
+            <button type="submit">Check</button>
+        </form>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
